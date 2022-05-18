@@ -1,0 +1,375 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #010326;
+}
+
+/* font-family: 'Gruppo', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive; */
+header {
+    background-color: #0D0259;
+}
+
+.divheader {
+    overflow: hidden;
+    margin: auto;
+    width: 80%;
+    padding: 10px;
+}
+
+.logo {
+    float: left;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin-top: 3%;
+    width: 30%;
+}
+
+.menu {
+    float: right;
+    width: 60%;
+    padding: 0px;
+}
+
+.menu li {
+    list-style: none;
+    float: right;
+    margin-left: 15px;
+    background-color: #010326;
+    padding: 15px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ffffff;
+    font-family: 'Gruppo', cursive;
+}
+
+.menu li:hover {
+    background-color: #bf6550;
+    color: #010440;
+    transition-duration: 0.5s;
+}
+
+.sesao {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sesao::before {
+    content: "";
+    background-image: url(../assets/background05.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.1;
+}
+
+.titulo {
+    width: 70%;
+    color: #f2935c;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.3rem;
+    margin-top: 5%;
+    float: right;
+}
+
+.paragrafo {
+    width: 70%;
+    color: #ffffff;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.5rem;
+    float: right;
+}
+
+article {
+    width: 80%;
+    margin: auto;
+}
+
+article h3 {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Gruppo', cursive;
+    font-size: 2rem;
+}
+
+article p {
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+.articleBlocos {
+    width: 100%;
+}
+
+.blocos {
+    width: 33%;
+    height: 33%;
+    margin-bottom: 5px;
+    padding: 0;
+    display: inline-block;
+    color: #f2935c;
+}
+
+.blocos h4 {
+    padding-left: 15px;
+    text-align: left;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.blocos p {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 0px;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.cubo1,
+.cubo3,
+.cubo5,
+.cubo7,
+.cubo9 {
+    background-color: #010440;
+}
+
+.cubo2,
+.cubo4,
+.cubo6,
+.cubo8 {
+    background-color: #0d0259;
+}
+
+.blocos:hover {
+    background-color: #bf6550;
+    color: #010440;
+    transition-duration: 0.5s;
+}
+
+footer {
+    width: 100%;
+    height: 330px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #0D0259;
+}
+
+.rodapegeral {
+    width: 80%;
+    margin: auto;
+}
+
+.titulorodape {
+    color: #ffffff;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Gruppo', cursive;
+    padding-top: 15px;
+}
+
+.rodapegeral ul {
+    list-style-position: inside;
+    display: inline-block;
+}
+
+.rodapegeral li {
+    font-size: 1rem;
+    margin-bottom: 1px;
+    padding: 5px;
+    border-radius: 15px;
+    font-family: 'Gruppo', cursive;
+}
+
+.rodapegeral a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.rodapegeral li:hover {
+    background-color: #bf6550;
+    transition-duration: 0.5s;
+}
+
+.list01 {
+    margin: 0;
+    width: 30%;
+}
+
+.list02 {
+    margin: 0;
+    width: 30%;
+}
+
+#face {
+    list-style-image: url(../assets/facebook.png);
+}
+
+#inst {
+    list-style-image: url(../assets/instagram.png);
+}
+
+#twit {
+    list-style-image: url(../assets/twitter.png);
+}
+
+#gith {
+    list-style-image: url(../assets/github.png);
+}
+
+#linke {
+    list-style-image: url(../assets/linkedin.png);
+}
+
+#whats {
+    list-style-image: url(../assets/whatsapp.png);
+}
+
+.textofinal {
+    float: right;
+    width: 30%;
+    padding: 10px;
+    margin-left: -50px;
+}
+
+.textofinal p {
+    font-family: 'Monoton', cursive;
+    font-size: 1.3rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .titulo {
+        width: 90%;
+    }
+
+    .paragrafo {
+        width: 90%;
+    }
+
+    article {
+        width: 95%;
+    }
+
+    article h3 {
+        font-size: 1.7rem;
+    }
+
+    .blocos {
+        width: 32.9%;
+        margin-bottom: 2px;
+    }
+
+    .blocos h4 {
+        font-size: 0.7rem;
+    }
+
+    .blocos p {
+        padding-left: 5px;
+    }
+
+    .rodapegeral {
+        width: 100%;
+    }
+
+    .list01 {
+        width: 27%;
+    }
+
+    .list02 {
+        width: 33%;
+    }
+
+    .textofinal {
+        width: 25%;
+        margin-right: 20px;
+        margin-top: 10px;
+    }
+
+    .textofinal p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .titulo {
+        width: 95%;
+        text-align: left;
+    }
+
+    .paragrafo {
+        width: 90%;
+        text-align: left;
+    }
+
+    article {
+        width: 100%;
+    }
+
+    article h3 {
+        font-size: 1.5rem;
+    }
+
+    .blocos {
+        width: 32%;
+        margin-bottom: 2px;
+    }
+
+    .blocos h4 {
+        font-size: 0.5rem;
+    }
+
+    .blocos p {
+        padding-left: 5px;
+        font-size: 0.8rem;
+    }
+
+    footer {
+        height: 580px;
+    }
+
+    .rodapegeral {
+        width: 100%;
+    }
+
+    .rodapegeral ul {
+        float: left;
+        list-style-type: none;
+    }
+
+    .rodapegeral li {
+        width: 80%;
+    }
+
+    .list01 {
+        width: 70%;
+    }
+
+    .list02 {
+        width: 70%;
+    }
+
+    .textofinal {
+        width: 100%;
+    }
+
+    .textofinal p {
+        font-size: 0.5rem;
+        margin-left: 10px;
+        padding: 10px;
+    }
+}
