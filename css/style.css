@@ -310,7 +310,7 @@ footer {
     .titulo {
         width: 95%;
         text-align: left;
-        font-size: 1.3vmax;
+        font-size: 3vmin;
     }
 
     .paragrafo {
@@ -337,7 +337,7 @@ footer {
 
     .blocos p {
         padding-left: 5px;
-        font-size: 0.8vmax;
+        font-size: 2.5vmin;
     }
 
     footer {
