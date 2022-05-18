@@ -80,7 +80,7 @@ header {
     width: 70%;
     color: #f2935c;
     font-family: 'Press Start 2P', cursive;
-    font-size: 1.7vmax;
+    font-size: 1.3rem;
     margin-top: 5%;
     float: right;
 }
@@ -89,7 +89,7 @@ header {
     width: 70%;
     color: #ffffff;
     font-family: 'Poiret One', cursive;
-    font-size: 2vmax;
+    font-size: 1.5rem;
     float: right;
 }
 
@@ -310,7 +310,6 @@ footer {
     .titulo {
         width: 95%;
         text-align: left;
-        font-size: 1.3vmax;
     }
 
     .paragrafo {
@@ -337,7 +336,7 @@ footer {
 
     .blocos p {
         padding-left: 5px;
-        font-size: 0.8vmax;
+        font-size: 0.8rem;
     }
 
     footer {
