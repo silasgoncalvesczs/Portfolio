@@ -310,6 +310,7 @@ footer {
     .titulo {
         width: 95%;
         text-align: left;
+        font-size: 1.3vmax;
     }
 
     .paragrafo {
