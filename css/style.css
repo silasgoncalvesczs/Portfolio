@@ -21,11 +21,14 @@ header {
 
 .logo {
     float: left;
-    color: #ffffff;
-    font-family: 'Press Start 2P', cursive;
-    font-size: 2rem;
     margin-top: 3%;
     width: 30%;
+}
+.logo a{
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1.8rem;
 }
 
 .menu {

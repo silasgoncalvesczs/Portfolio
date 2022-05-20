@@ -1,0 +1,54 @@
+/* font-family: 'Gruppo', cursive;
+    font-family: 'Monoton', cursive;
+    font-family: 'Poiret One', cursive;
+    font-family: 'Press Start 2P', cursive; */
+main{
+    width: 90%;
+    height: 600px;
+    margin: auto;
+}
+section{
+    text-align: center;
+    
+}
+.tituloContato{
+    color: #bf6550;
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', cursive;
+}
+.paragrafoContatos{
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'Poiret One', cursive;
+}
+form{
+    width: 70%;
+    margin: auto;
+}
+input{
+    width: 90%;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+#descricao{
+    width: 90%;
+    height: 80px;
+    box-sizing: border-box;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 8px;
+}
+input[type="submit"]{
+    color: #ffffff;
+    background-color: #0d0259;
+    font-weight: bold;
+}
+input[type="submit"]:hover{
+    color: #ffffff;
+    background-color: #bf6550;
+    font-weight: bold;
+}
