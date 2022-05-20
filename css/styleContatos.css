@@ -32,15 +32,28 @@ input{
     border: none;
     border-radius: 8px;
     margin-bottom: 10px;
+    color: rgb(88, 88, 88);
+    font-size: 1rem;
+}
+input::placeholder {
+    color: rgb(88, 88, 88);
+    font-size: 1rem;
 }
 #descricao{
     width: 90%;
-    height: 80px;
+    height: 100px;
     box-sizing: border-box;
     padding: 15px;
     border: none;
     margin-bottom: 10px;
     border-radius: 8px;
+    resize:vertical;
+    color: rgb(88, 88, 88);
+    font-size: 1rem;
+}
+#descricao::placeholder{
+    color: rgb(88, 88, 88);
+    font-size: 1rem;
 }
 input[type="submit"]{
     color: #ffffff;
