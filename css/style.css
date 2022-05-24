@@ -310,6 +310,37 @@ footer {
 }
 
 @media screen and (max-width: 767px) {
+    .logo {
+        margin-left: 10px;
+    }
+
+    /* // aqui coloquei float como none, width a 100% e padding a 20px, e adicionei mais outras propriedades */
+    .menu {
+        float: none;
+        width: 100%;
+        padding: 20px;
+        position: absolute;
+        margin-top: 40px;
+        margin-right: 25px;
+        right: 50%;
+        transform: translateX(50%);
+    }
+      /* // responsável por diminuir o tamanho do botão */
+    .menu li {
+        padding: 8px;
+        border-radius: 10px;
+        font-size: 0.9rem;
+    }
+      /* // responsável pela altura do seu menu */
+    header{
+        height: 120px;
+    }
+      /* // aqui só tirei as margins e width em 100% */
+    .divheader {
+        margin: none;
+        width: 100%;
+    }
+
     .titulo {
         width: 95%;
         text-align: left;
