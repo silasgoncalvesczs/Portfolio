@@ -64,3 +64,9 @@ input[type="submit"]:hover{
     background-color: #bf6550;
     font-weight: bold;
 }
+@media screen and (max-width: 767px) {
+    form{
+        width: 100%;
+        margin: auto;
+    }
+}
